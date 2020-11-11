@@ -1,0 +1,37 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .component7 {
+        height: 312px;
+    }
+    .main7 {
+        top: 47%;
+        left: 49.5%;
+    }
+    .empty {display: block;}
+    .grid2 {
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 186px;
+        height: 89px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 9px;
+    }
+    .centerh {
+        margin-top: 2.5px;
+        margin-left: 85px;
+    }
+    .logo1 {
+        width: 102.94px;
+        height: 43.2px;
+        img {
+            width: 24.86px;
+            height: 37.01px;
+        }
+        h1 {
+            font-size: 32.49px;
+        }
+    }
+    .text4 {
+        padding-top: 40px;
+    }
+}
