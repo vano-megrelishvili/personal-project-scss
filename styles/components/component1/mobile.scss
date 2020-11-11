@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .component1 {
+        height: 66.93px;
+    }
+    .main1 {
+        width: 87.1%;
+        min-width: 200px;
+    }
+    .logo1 {
+        width: 85.84px;
+        height: 38.49px;
+        img {
+            width: 20.6px;
+            height: 31.01px;
+            align-self: flex-start;
+        }
+        h1 {
+            font-size: 27.22px;
+            align-self: center;
+        }
+    }
+    .menu1 {
+        display: block;
+        width: 48px;
+        height: 31px;
+        .inner1 {
+            width: 44.44px;
+            height: 27.44px;
+            .flex2 {
+                width: 22px;
+            }
+        }
+    }
+    .flex1 {display: none;}
+    .logo1 {
+        width: 85.84px;
+        height: 38.49px;
+    }
+}
