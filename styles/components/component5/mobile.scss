@@ -1,0 +1,76 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .component5 {
+        height: 802.86px;
+    }
+    .main5 {
+        width: 87.5%;
+        max-width: 350px;
+        height: 770.08px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .title9 {
+        font-size: 27px;
+        padding-top: 4px;
+    }
+    .portfolio {
+        margin-top: 14px;
+    }
+    .el7,.el6,.el5 {
+        display: none;
+    }
+    .grid1 {
+        height: 674px;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: 100%;
+        grid-row-gap: 7px;
+        .element1 {grid-column: span 1;}
+    }
+    .upper0 {
+        height: 109px;
+    }
+    .element:hover .icon2 {
+        display: none;
+    }
+    .icon3 {
+        z-index: 2;
+        width: 91.4px;
+        height: 26.42px;
+        @include flexb();
+        position: absolute;
+        left: 50%;
+        top:27%;
+        transform: translate(-50%);
+        .cyrcle3 {
+            width: 26.42px;
+            height: 26.42px;
+            background-color: $color20;
+            position: relative;
+            border-radius: 50%;
+        }
+    }
+    .hover2 {
+        .icon2 {display: none;}
+    }
+    .bigger0 {
+        display: none;
+    }
+    .bigger1 {
+        display: block;
+        font-size: 13.99px;
+        padding-top: 13px;
+        text-align: center;
+        color: $color18;
+        font-family: 'Raleway';
+        font-weight: $sbold;
+    }
+    .smaller0 {
+        font-size: 10.99px;
+        padding-top: 9px;
+        letter-spacing: 0.3px;
+    }
+    .cyrcle3:hover {
+        background-color: transparent;
+        border: 2px solid $color20;
+    }
+}
