@@ -1,0 +1,124 @@
+@mixin flexb {
+    display: flex;
+    justify-content: space-between;
+}
+.component3 {height: 813.97px;}
+.main3 {
+    width: 61.9%;
+    min-width: 1011.69px;
+    height: 579.25px;
+    position: absolute;
+    top: 49%;
+    left: 50.3%;
+    transform: translate(-50%,-50%);
+}
+.title5 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 31px;
+    color: $color8;
+    text-align: center;
+    padding-top: 6.5px;
+}
+.speak {
+    height: 17px;
+    width: 109px;
+    @include flexb();
+    margin-top: 13px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.line1 {
+    width: 37px;
+    height: 1.1px;
+    background-color: $color9;
+    align-self: center;
+}
+.flex3 {
+    width: 100%;
+    height: 422.66px;
+    position: absolute;
+    bottom: 0%;
+    @include flexb();
+}
+.image1 {
+    width: 510px;
+    height: 414px;
+    align-self: flex-end;
+    position: relative;
+}
+.image1 img {height: 100%;width: 100%;}
+.textbox1 {
+    margin-left: 11.8px;
+    width: 49.37%;
+    min-width: 489.91px;
+    height: 404.88px;
+    align-self: flex-start;
+    position: relative;
+}
+.image0 {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+}
+.title6 {
+    font-family: 'Raleway';
+    font-weight: $sbold;
+    font-size: 31px;
+    color: $color8;
+    padding-top: 6px;
+    letter-spacing: -0.5px;
+}
+.text1 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 27px;
+    color: $color10;
+    padding-top: 25.5px;
+}
+.flex0 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 215.71px;
+    @include flexb();
+    flex-direction: column;
+}
+.flex01 {
+    width: 100%;
+    height: 89.71px;
+    @include flexb();
+}
+.quarter1 {
+    @include flexb();
+    width: 47.01%;
+    min-width: 223.23px;
+    .cyrcle1 {
+        width: 63px;
+        height: 63px;
+        background-color: $color11;
+        border-radius: 50%;
+        position: relative;
+        align-self: flex-start;
+        margin-right: 11.5px;
+    } 
+}
+.innertextbox1 {
+    width: 185px;
+    height: 100%;
+}
+.innertitle1 {
+    font-family: 'Raleway';
+    font-weight: $bold;
+    font-size: 18px;
+    color: $color8;
+}
+.innertext1 {
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 22px;
+    color: $color10;
+    padding-top: 10.9px;
+}
+.comp3-tm {display: none;}
