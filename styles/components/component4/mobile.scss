@@ -1,0 +1,52 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .component4 {
+        width: 100%;
+        height: 1107.82px;
+        background-color: $color17;
+    }
+    .title8 {
+        font-size: 27px;
+    }
+    .service {
+        margin-top: 9px;
+    }
+    .main4 {
+        width: 280px;
+        height: 1050px;
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        transform: translate(-50%);
+    }
+    .flex6 {
+        @include flexb();
+        flex-direction: column;
+        height: 935px;
+        width: 100%;
+        margin-top: 75px;   
+    }
+    .third {
+        width: 280px;
+        height: 287.2px;
+    }
+    .hover1 {
+        width: 118.18px;
+        height: 137.29px;
+        .sawyisi,.meore {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .hover1.first1 {
+        margin-top: 5.5px;
+    }
+    .innertitle2 {
+        font-size: 18.96px;
+        letter-spacing: 0.4px;
+    }
+    .innertext3 {
+        font-size: 13px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+}
