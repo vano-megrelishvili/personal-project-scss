@@ -1,0 +1,22 @@
+@media (min-width: 1025px){
+    
+    .component4 {
+        height: 783px;
+    }
+    .main4 {
+        width: 61.09%;
+        min-width: 1000px;
+        height: 571.56px;
+        position: absolute;
+        left: 50%;
+        top: 135px;
+        transform: translate(-50%);
+    }
+    .flex6 {
+        height: 364.5px;
+        width: 100%;
+        @include flexb();
+        position: absolute;
+        bottom: 0%;
+    }
+}
