@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+$elight:200;
+$light:300;
+$regular:400;
+$sbold:600;
+$bold:700;
+$black:900;
