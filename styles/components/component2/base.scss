@@ -1,0 +1,9 @@
+.component2 {
+    width: 100%;
+    background-color: $color6;
+    position: relative;
+}
+
+@media (max-width: 319px){
+    .component2 {display: none;}
+}
