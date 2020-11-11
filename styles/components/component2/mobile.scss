@@ -1,0 +1,45 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .component2 {
+        height: 212.61px;
+    }   
+    .main2 {
+        height: 112.66px;
+        width: 314px;
+        top: 42.4px;
+        left: 49%;
+        .title1 {
+            font-size: 25px;
+        }
+        .title2 {
+            font-size: 30px;
+            padding-top: 4px;
+            letter-spacing: 0.2px;
+            word-spacing: -5px;
+        }
+        .title3 {display: none;}
+        .title4 {
+            display: block;
+            padding-top: 5px;
+            font-family: 'Raleway';
+            font-weight: $light;
+            font-size: 9px;
+            color: $color4;
+            letter-spacing: -0.15px;
+            word-spacing: 1px;
+        }
+    }
+    .left {display: none;}
+    .right {display: none;}
+    .readmore {
+        width: 64px;
+        height: 19px;
+        .inner3 {
+            width: 60px;
+            height: 15px;
+            .btntext1 {
+                font-size: 7px;
+                padding-top: 2px;
+            }
+        }
+    }
+}
