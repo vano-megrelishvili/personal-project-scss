@@ -1,0 +1,14 @@
+.component1 {
+    width: 100%;
+    background-color: $color1;
+    position: relative;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+@media (max-width: 319px){
+    .component1 {display: none;}
+}
