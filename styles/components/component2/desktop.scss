@@ -1,0 +1,75 @@
+@mixin arrow {
+    background-color: transparent;
+    border: none;
+}
+.component2 {
+    height: 759.1px;
+    background-image: url(../images/component2/image2.png);
+    background-size: cover;
+}
+.main2 {
+    width: 720px;
+    height: 270px;
+    text-align: center;
+    color: $color4;
+    position: absolute;
+    left: 50.5%;
+    transform: translate(-50%);
+    top: 233px;
+    .title1 {
+        font-family: 'Raleway';
+        font-weight: $elight;
+        font-size: 62px;
+        padding-top: 5px;
+    }
+    .title2 {
+        font-family: 'Montserrat';
+        font-weight: $bold;
+        font-size: 74px;
+        letter-spacing: -2.1px;
+        padding-top: 7px;
+    }
+    .title3 {
+        font-family: 'Raleway';
+        font-weight: $light;
+        font-size: 20px;
+        padding-top: 15px;
+        letter-spacing: -0.243px;
+    }
+    .title4 {display: none;}
+}
+.readmore{
+    width: 144px;
+    height: 44px;
+    background-color: $color5;
+    border: none;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    .inner3 {
+        width: 138px;
+        height: 38px;
+        border: 1px solid $color4;
+        border-radius: 0.5px;
+        .btntext1 {
+            font-family: 'Raleway';
+            font-weight: $bold;
+            font-size: 13px;
+            color: $color4;
+            padding-top: 9px;
+        }
+    }
+}
+.left {
+    position: absolute;
+    top: 303px;
+    left: 35px;
+    @include arrow();
+}
+.right {
+    position: absolute;
+    top: 303px;
+    right: 35px;
+    @include arrow();
+}
