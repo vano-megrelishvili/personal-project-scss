@@ -1,0 +1,78 @@
+@mixin flexb {
+    display: flex;
+    justify-content: space-between;
+}
+.component4 {
+    width: 100%;
+    background-color: $color13;
+    position: relative;
+    background-image: url(../images/component4/image4.jpg);
+    background-size: cover;
+
+}
+.title8 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: $sbold;
+    font-size: 31px;
+    color: $color14;
+    margin-top: 10px;
+}
+.third {
+    height: 100%;
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+}
+.service {
+    height: 19px;
+    width: 111px;
+    @include flexb();
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 4px;
+}
+.line3 {
+    width: 37px;
+    height: 1.1px;
+    background-color: $color15;
+    align-self: center;
+}
+.hover1 {
+    width: 124.52px;
+    height: 144.37px;
+    position: relative;
+    align-self: center;
+}
+.meore {
+    position: absolute;
+    top: 0%;
+    display: none;
+}
+.icon1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.hover1:hover .meore{
+    display: block;
+}
+.innertitle2 {
+    text-align: center;
+    color: $color16;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: $bold;
+    padding-top: 45px;
+}
+.innertext3 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 22px;
+    color: $color14;
+    text-align: center;
+    padding-top: 14px;
+    letter-spacing: 0.2px;
+}
