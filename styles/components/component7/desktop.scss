@@ -1,0 +1,39 @@
+.component7 {height: 298px;}
+.main7 {
+    width: 283px;
+    height: 207px;
+    position: absolute;
+    left: 50%;
+    top: 49%;
+    transform: translate(-50%,-50%);
+}
+.centerh {
+    margin-left: 83px;
+}
+.grid2 {
+    height: 40px;
+    width: 100%;
+    margin-top: 46px;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 9px;
+}
+.icon4 {
+    background-color: $color22;
+    border-radius: 3px;
+    position: relative;
+}
+.empty {display: none;}
+.icon4:hover {
+    background-color: $color23;
+}
+.text4 {
+    font-family: 'Raleway';
+    font-weight: $regular;
+    font-size: 11px;
+    color: $color24;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 0.25px;
+}
