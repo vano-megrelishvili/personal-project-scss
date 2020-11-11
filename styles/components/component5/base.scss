@@ -1,0 +1,19 @@
+.component5 {
+    width: 100%;
+    background-color: $color18;
+    position: relative;
+}
+@mixin flexb {
+    display: flex;
+    justify-content: space-between;
+}
+
+$images: (1:"image5.jpg" , 2:"image6.jpg" , 3:"image7.jpg" , 4:"image8.jpg" , 5:"image9.jpg" , 6:"image10.jpg" , 7:"image11.jpg");
+
+@each $index,$image in $images {
+    .el#{$index} {
+        background-image: url(../images/component5/#{$image});
+        background-size: cover;
+    }
+}
+
