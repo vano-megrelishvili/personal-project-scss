@@ -1,0 +1,19 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    .component1 {
+        height: 108.92px;
+    }
+    .menu1 {
+        display: block;
+    }
+    .logo1 {
+        h1 {align-self: center;}
+        img {align-self: flex-start;}
+    }
+    .flex1 {
+        display: none;
+    }
+    .main1 {
+        width: 93.3%;
+        min-width: 200px;
+    }
+}
